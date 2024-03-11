@@ -12,21 +12,23 @@
       <link>http://localhost:1313/en/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/en/about/</guid>
-      <description></description>
+      <description>About Me class Me: def __init__(self): self.name = &amp;#34;Jingman Wang&amp;#34; self.prefer_name = &amp;#34;Michelle&amp;#34; self.born_year = 2003 self.MBTI = &amp;#34;ESTJ&amp;#34; self.hometown = &amp;#34;Shanghai, CN&amp;#34; self.curr_location = &amp;#34;Baltimore, MD, US&amp;#34; self.undergrad_school = &amp;#34;Johns Hopkins University&amp;#34; self.major = &amp;#34;Computer Science&amp;#34; self.second_major = &amp;#34;Cognitive Science&amp;#34; self.graduation_year = 2025 </description>
     </item>
     <item>
       <title></title>
       <link>http://localhost:1313/en/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/en/projects/</guid>
-      <description></description>
+      <description>Experience dearYou Health React Native TensorFlow Firebase Git Version Control Position: Tech Board Lead | Year: 01/2024 - current Overview: DearYou Health is a youth-powered nonprofit dedicated to providing culturally-competent mental health support to underrepresented high school and college students, bridging connections to various therapy modalities and fostering an inclusive environment for prioritizing well-being.
+Key Contributions:
+Cross-Platform Compatibility: Spearheaded the tech team in utilizing React Native to ensure seamless user experience across various devices.</description>
     </item>
     <item>
       <title></title>
       <link>http://localhost:1313/en/resume/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/en/resume/</guid>
-      <description></description>
+      <description>Resume </description>
     </item>
   </channel>
 </rss>
