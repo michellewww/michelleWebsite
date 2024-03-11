@@ -84,7 +84,7 @@ languages:
                 - name: 项目
                   url: project
                 - name: 简历
-                  url: resume.pdf
+                  url: resume
 
         menu:
             main:
