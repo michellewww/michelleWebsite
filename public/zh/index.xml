@@ -1,11 +1,44 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>Michelle&#39;s World</title>
     <link>http://localhost:1313/zh/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on Michelle&#39;s World</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <atom:link href="http://localhost:1313/zh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/zh/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/about/</guid>
+      <description>About Me class Me: def __init__(self): self.name = &amp;#34;Jingman Wang&amp;#34; self.prefer_name = &amp;#34;Michelle&amp;#34; self.born_year = 2003 self.MBTI = &amp;#34;ESTJ&amp;#34; self.hometown = &amp;#34;Shanghai, CN&amp;#34; self.curr_location = &amp;#34;Baltimore, MD, US&amp;#34; self.undergrad_school = &amp;#34;Johns Hopkins University&amp;#34; self.major = &amp;#34;Computer Science&amp;#34; self.second_major = &amp;#34;Cognitive Science&amp;#34; self.graduation_year = 2025 </description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/zh/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/projects/</guid>
+      <description>Experience dearYou Health React Native TensorFlow Firebase Git Version Control Position: Tech Board Lead | Year: 01/2024 - current Overview: DearYou Health is a youth-powered nonprofit dedicated to providing culturally-competent mental health support to underrepresented high school and college students, bridging connections to various therapy modalities and fostering an inclusive environment for prioritizing well-being.
+Key Contributions:
+Cross-Platform Compatibility: Spearheaded the tech team in utilizing React Native to ensure seamless user experience across various devices.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/zh/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/research/</guid>
+      <description>Research JHU Autonomy OWL Machine Learning Edge Detection Remote Sensing Year: 01/2022 - 08/2022 Overview:
+An AI observatory, workshop and laboratory for critical infrastructure resilience.
+Key Contributions:
+Leveraged machine learning techniques to adapt terrestrial applications to the unique constraints of the space domain. Showcased web development expertise by strategically redesigning and updating the lab website, creating a fresh visual identity, and optimizing content for improved search engine visibility. Earned a presentation slot at the 2022 ASCEND conference with my proposal, titled &#34;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/zh/resume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/zh/resume/</guid>
+      <description>Resume </description>
+    </item>
   </channel>
 </rss>

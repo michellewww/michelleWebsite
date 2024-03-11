@@ -67,6 +67,11 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 </script>
 
+<!-- <div>
+<a href="https://www.jingman-wang.me/en/about/#skills" class="external-link" target="_blank"> check Michelle's skills
+</a>
+</div> -->
+
 ## Experience
 
 <div class="experience-card" id="project1">

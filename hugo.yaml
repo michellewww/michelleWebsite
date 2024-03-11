@@ -1,6 +1,6 @@
 baseURL: https://example.org/
 languageCode: en-us
-title: My New Hugo Site
+title: Michelle's World
 theme: PaperMod
 
 enableInlineShortcodes: true
@@ -42,6 +42,8 @@ languages:
             imageTitle: Selfie
             imageWidth: 150
             imageHeight: 150
+            thoughtCloudText: "Check out my startup - Goosecart"
+            thoughtCloudLink: "https://www.goose-cart.com"
             buttons:
                 - name: About
                   url: about
@@ -60,10 +62,14 @@ languages:
                   name: Project
                   url: projects
                   weight: 2
+                - identifier: Research
+                  name: Research
+                  url: research
+                  weight: 3
                 - identifier: Resume
                   name: Resume
                   url: resume
-                  weight: 3
+                  weight: 4
 
     zh:
         languageName: "中文 🇨🇳"
@@ -96,14 +102,15 @@ languages:
                   name: 项目
                   url: projects
                   weight: 2
+                - identifier: Research
+                  name: 科研
+                  url: research
+                  weight: 3
                 - identifier: Resume
                   name: 简历
-                  url: resume.pdf
-                  weight: 3
-                - identifier: Search
-                  name: 搜索
-                  url: search
-                  weight: 7
+                  url: resume
+                  weight: 4
+
 
 outputs:
     home:
@@ -116,7 +123,7 @@ params:
     title: Michelle
     author: Michelle
 
-    defaultTheme: light # defaultTheme: light or dark
+    defaultTheme: dark # defaultTheme: light or dark
     disableThemeToggle: false
     DateFormat: "2006-01-02"
     ShowShareButtons: false
