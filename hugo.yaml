@@ -48,7 +48,7 @@ languages:
                 - name: Project
                   url: projects
                 - name: Resume
-                  url: resume.pdf
+                  url: resume
 
         menu:
             main:
@@ -62,12 +62,8 @@ languages:
                   weight: 2
                 - identifier: Resume
                   name: Resume
-                  url: resume.pdf
+                  url: resume
                   weight: 3
-                - identifier: Search
-                  name: Search
-                  url: search
-                  weight: 5
 
     zh:
         languageName: "中文"
@@ -117,8 +113,8 @@ outputs:
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    title: Kyrie
-    author: Kyrie
+    title: Michelle
+    author: Michelle
 
     defaultTheme: light # defaultTheme: light or dark
     disableThemeToggle: false
@@ -131,7 +127,7 @@ params:
     ShowPostNavLinks: true
     ShowBreadCrumbs: true
     ShowCodeCopyButtons: true
-    hideFooter: false # hide foot
+    hideFooter: true # hide foot
     ShowWordCounts: true
     VisitCount: true
 
@@ -150,7 +146,7 @@ params:
         - name: linkedin
           url: "https://www.linkedin.com/in/jingmanwang367/"
         - name: email
-          url: "michellewangjm@gmail.com"
+          url: "mailto:michellewangjm@gmail.com"
 
     assets:
         favicon: "my-selfie.png"
@@ -207,7 +203,7 @@ privacy:
         simple: true
 
     youtube:
-        disabled: false
+        disabled: true
         privacyEnhanced: true
 
 services:
