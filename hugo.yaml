@@ -47,7 +47,7 @@ languages:
             buttons:
                 - name: About
                   url: about
-                - name: Project
+                - name: Experience
                   url: projects
                 - name: Resume
                   url: resume
@@ -59,7 +59,7 @@ languages:
                   url: about
                   weight: 1
                 - identifier: Projects
-                  name: Project
+                  name: Experience
                   url: projects
                   weight: 2
                 - identifier: Research
