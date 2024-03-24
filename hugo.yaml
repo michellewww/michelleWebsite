@@ -51,6 +51,8 @@ languages:
                   url: projects
                 - name: Resume
                   url: resume
+                - name: Have some fun!!!
+                  url: fun
 
         menu:
             main:
