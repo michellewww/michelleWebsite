@@ -72,7 +72,13 @@ document.addEventListener("DOMContentLoaded", function() {
 </a>
 </div> -->
 
-## Experience
+<div style="background-color: #f8f9fa; padding: 10px 0; text-align: center; margin-bottom: 20px;">
+  <a href="#experience" style="padding: 10px 15px; text-decoration: none; color: black; font-weight: bold; border-right: 1px solid #dee2e6;">Experience</a>
+  <a href="#projects" style="padding: 10px 15px; text-decoration: none; color: black; font-weight: bold; border-right: 1px solid #dee2e6;">Projects</a>
+  <a href="#awards" style="padding: 10px 15px; text-decoration: none; color: black; font-weight: bold;">Awards</a>
+</div>
+
+## <div id="experience">Experience</div>
 
 _* <u>click each card to expand_</u>
 
@@ -186,8 +192,8 @@ _* <u>click each card to expand_</u>
   <p class="skills">
     <span>Java</span>
     <span>Android Studio</span>
-    <span>Firebase</span>
-    <span>CV</span>
+    <span>Firestore</span>
+    <span>Computer Vision</span>
   </p>
   <details>
     <summary><strong>Year:</strong> 06/2023 - 08/2023</summary>
@@ -217,7 +223,7 @@ _* <u>click each card to expand_</u>
   </details>
 </div>
 
-## Projects
+## <div id="projects">Projects</div>
 
 
 
@@ -289,7 +295,7 @@ _* <u>click each card to expand_</u>
 
 
 
-## Awards
+## <div id="awards">Awards</div>
 <ul>
   <li>
     <span>Received the Singhal Family Entrepreneurship Award and the 2023 Dean’s Design Award, securing $20,000 in funding for Quest2Learn.
