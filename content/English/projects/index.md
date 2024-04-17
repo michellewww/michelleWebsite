@@ -51,6 +51,14 @@
   height: 35px;
   cursor: pointer;
 }
+.goosecart-logo {
+  position: absolute;
+  top: 10px;
+  left: 70px;
+  width: 75px;
+  height: 75px;
+  cursor: pointer;
+}
 </style>
 
 <script>
@@ -73,15 +81,34 @@ document.addEventListener("DOMContentLoaded", function() {
 </div> -->
 
 <div style="background-color: #f8f9fa; padding: 10px 0; text-align: center; margin-bottom: 20px;">
+  <a href="#startup" style="padding: 10px 15px; text-decoration: none; color: black; font-weight: bold; border-right: 1px solid #dee2e6;">Startup</a>
   <a href="#experience" style="padding: 10px 15px; text-decoration: none; color: black; font-weight: bold; border-right: 1px solid #dee2e6;">Experience</a>
   <a href="#projects" style="padding: 10px 15px; text-decoration: none; color: black; font-weight: bold; border-right: 1px solid #dee2e6;">Projects</a>
   <a href="#awards" style="padding: 10px 15px; text-decoration: none; color: black; font-weight: bold;">Awards</a>
 </div>
 
-## <div id="experience">Experience</div>
-
 _* <u>click each card to expand_</u>
 
+## <div id="startup">MY STARTUP!!!</div>
+<div class="experience-card" id="project1">
+  <a href="https://www.goose-cart.com/" class="goosecart-logo" target="_blank">
+      <img src="rounded_goosecart.png" />
+  </a>
+  <div style="text-align: center;">
+    <!-- goosecart with light orange color and centered -->
+    <div style="font-size: 24px; color: #ff7f50">GooseCart</div>
+    <div style="font-size: 14px; color: #ffb347;">YOUR NEIGHBORHOOD MARKETPLACE</div>
+    <div style="font-size: 14px; color: #ffb347;">Flock Together for Local Deals!</div>
+    <div style="font-size: 14px;">
+      Connect with us:
+      <a href="https://www.goose-cart.com/" class="connection-link" target="_blank">Website</a>
+       | 
+      <a href="https://www.linkedin.com/company/goosecart/" class="connection-link" target="_blank"> LinkedIn</a>
+    </div>
+  </div>
+</div>
+
+## <div id="experience">Experience</div>
 <div class="experience-card" id="project1">
   <h3>dearYou Health</h3>
   <a href="https://www.dearyouhealth.org/" class="external-link" target="_blank">
@@ -139,6 +166,9 @@ _* <u>click each card to expand_</u>
 
 <div class="experience-card" id="project1">
   <h3>VisualScore</h3>
+  <a href="https://visual-score.com/" class="external-link" target="_blank">
+    <img src="ext_link_icon.png" />
+  </a>
   <p class="skills">
     <span>React Native</span>
     <span>Python</span>
@@ -297,8 +327,8 @@ _* <u>click each card to expand_</u>
 
 ## <div id="awards">Awards</div>
 <ul>
-  <li>
-    <span>Received the Singhal Family Entrepreneurship Award and the 2023 Dean’s Design Award, securing $20,000 in funding for Quest2Learn.
+  <li>Awarded a $4,500 grant for GooseCart at the third annual FastForward U Summer Incubator, Johns Hopkins University.
   </li>
+  <li>Recipient of the 2023 Dean’s Design Award and the Singhal Family Entrepreneurship Award, securing $20,000 in funding for Quest2Learn.</li>
   <li>Earned a presentation slot at the 2022 ASCEND conference with my proposal with Nathaniel Gordon, titled "Spacecraft Diagnostic Generation from Remote Sensing for OSAM Mission”.</li>
 </ul>
