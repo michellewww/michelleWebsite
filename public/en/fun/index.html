@@ -8,7 +8,7 @@
 <title>Michelle&#39;s World</title>
 <meta name="keywords" content="">
 <meta name="description" content=" TAKE ME TO A WEBSITE MICHELLE LOVES PLEASE ">
-<meta name="author" content="Michelle">
+<meta name="author" content="">
 <link rel="canonical" href="http://localhost:1313/en/fun/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.b609c58d5c11bb90b1a54e04005d74ad1ddf22165eb79f5533967e57df9c3b50.css" integrity="sha256-tgnFjVwRu5CxpU4EAF10rR3fIhZet59VM5Z&#43;V9&#43;cO1A=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/my-selfie.png">
@@ -68,10 +68,6 @@
   "inLanguage": "en",
   "datePublished": "0001-01-01T00:00:00Z",
   "dateModified": "0001-01-01T00:00:00Z",
-  "author":{
-    "@type": "Person",
-    "name": "Michelle"
-  },
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "http://localhost:1313/en/fun/"
@@ -121,12 +117,6 @@
                         <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
                     </svg>
                 </button>
-                <ul class="lang-switch"><li>|</li>
-                    <li>
-                        <a href="http://localhost:1313/zh/" title="中文 🇨🇳"
-                            aria-label="中文 🇨🇳">中文 🇨🇳</a>
-                    </li>
-                </ul>
             </div>
         </div>
         <ul id="menu">
@@ -157,35 +147,41 @@
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="http://localhost:1313/en/">Home</a></div>
+    
     <h1 class="post-title entry-hint-parent">
       
     </h1>
-    <div class="post-meta">1 min&nbsp;·&nbsp;Michelle
+    <div class="post-meta">
 
 </div>
   </header> 
   <div class="post-content"><div style="text-align: center; margin-top: 50px;">
-    <button onclick="redirectToRandomLink()" style="background-color: #FF69B4; color: white; padding: 15px 25px; border: none; text-transform: uppercase; font-weight: bold; cursor: pointer; outline: none; font-size: 24px; border-radius: 5px; box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);">TAKE ME TO A WEBSITE MICHELLE LOVES PLEASE</button>
+    <button onclick="redirectToNextLink()" style="background-color: #FF69B4; color: white; padding: 15px 25px; border: none; text-transform: uppercase; font-weight: bold; cursor: pointer; outline: none; font-size: 24px; border-radius: 5px; box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);">TAKE ME TO A WEBSITE MICHELLE LOVES PLEASE</button>
 </div>
 <script>
-function redirectToRandomLink() {
     var urls = [
+        'https://pixel-me.tokyo/en/',
+        'https://www.drawaurora.com/',
         'https://humanbenchmark.com/',
         'https://tv.hzfe.org/',
         'https://hammyhome.com/',
         'https://bubblespop.netlify.app/',
-        'https://pixel-me.tokyo/en/',
         'https://aidn.jp/mikutap/',
         'https://www.nasa.gov/image-of-the-day/',
-        'https://www.avogado6.com/',
-        'https://www.drawaurora.com/'
+        'https://www.avogado6.com/'
     ];
-    var randomIndex = Math.floor(Math.random() * urls.length);
-    window.open(urls[randomIndex], '_blank').focus();
-}
-</script>
 
+    // Index to keep track of the current URL
+    var currentIndex = 0;
+
+    function redirectToNextLink() {
+        if (currentIndex >= urls.length) {
+            currentIndex = 0; // Reset to the beginning if we've gone through all URLs
+        }
+        window.open(urls[currentIndex], '_blank').focus();
+        currentIndex++;
+    }
+</script>
 
   </div>
 

@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", function() {
 </div> -->
 
 <div style="background-color: #f8f9fa; padding: 10px 0; text-align: center; margin-bottom: 20px;">
-  <a href="#startup" style="padding: 10px 15px; text-decoration: none; color: black; font-weight: bold; border-right: 1px solid #dee2e6;">Startup</a>
+  <a href="#intern" style="padding: 10px 15px; text-decoration: none; color: black; font-weight: bold; border-right: 1px solid #dee2e6;">Intern</a>
   <a href="#experience" style="padding: 10px 15px; text-decoration: none; color: black; font-weight: bold; border-right: 1px solid #dee2e6;">Experience</a>
   <a href="#projects" style="padding: 10px 15px; text-decoration: none; color: black; font-weight: bold; border-right: 1px solid #dee2e6;">Projects</a>
   <a href="#awards" style="padding: 10px 15px; text-decoration: none; color: black; font-weight: bold;">Awards</a>
@@ -108,9 +108,33 @@ _* <u>click each card to expand_</u>
   </div>
 </div>
 
-## <div id="experience">Experience</div>
+## <div id="intern">Intern</div>
+<div class="experience-card" id="project9">
+  <h3>Hull Street Energy</h3>
+  <a href="https://hullstreetenergy.com/" class="external-link" target="_blank">
+    <img src="ext_link_icon.png" />
+  </a>
+  <p class="skills">
+    <span>Postgres</span>
+    <span>SQL</span>
+    <span>PgAdmin</span>
+    <span>Python</span>
+    <span>Excel Addin</span>
+    <span>LLM</span>
+    <span>Langchain</span>
+  </p>
+  <details>
+    <summary><strong>Position:</strong> Strategist & Software Engineer | <strong>Year:</strong> 05/2024 - 08/2024</summary>
+    <ul>
+      <li>Created and maintained a comprehensive database and server for gas and power markets, aggregating key data such as trade contracts and ICE/Platts data. Built applications and Excel add-ins to visualize and analyze these datasets, supporting strategic decision-making.</li>
+      <li>Strategically managed operational variables of power plants, including heat rate, ramp rate, and state variables (hot, warm, cold), to maximize gross margins. Leveraged quantitative analysis and Hull Street Energy’s extensive expertise in both renewable and fossil fuel power generation.</li>
+      <li>Spearheaded the development of a personalized large language model assistant using AI and NLP, integrated with a proprietary database. This innovative tool provided customized insights and enhanced the analytical capabilities of the energy sector.</li>
+    </ul>
+  </details>
+</div>
+
 <div class="experience-card" id="project1">
-  <h3>dearYou Health</h3>
+  <h3>DearYou Health</h3>
   <a href="https://www.dearyouhealth.org/" class="external-link" target="_blank">
     <img src="ext_link_icon.png" />
   </a>
@@ -121,7 +145,7 @@ _* <u>click each card to expand_</u>
     <span>Git Version Control</span>
   </p>
   <details>
-    <summary><strong>Position:</strong> Tech Board Lead | <strong>Year:</strong> 01/2024 - Current</summary>
+    <summary><strong>Position:</strong> Tech Board Lead | <strong>Year:</strong> 01/2024 - 05/2024</summary>
     <!-- Your detailed content for Project Name 1 goes here -->
     <p><strong>Overview:</strong> DearYou Health is a youth-powered nonprofit dedicated to providing culturally-competent mental health support to underrepresented high school and college students, bridging connections to various therapy modalities and fostering an inclusive environment for prioritizing well-being.</p>
     <p><strong>Key Contributions:</strong></p>
@@ -132,6 +156,8 @@ _* <u>click each card to expand_</u>
     </ul>
   </details>
 </div>
+
+## <div id="experience">Experience</div>
 
 <div class="experience-card" id="project3">
   <h3>JHU Delineo (demo in descripion)</h3>

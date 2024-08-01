@@ -7,4 +7,4 @@
 }
 </style>
 
-<embed src="resume.pdf" type="application/pdf" width="100%" height="900px" />
+<embed src="JingmanWang_resume.pdf" type="application/pdf" width="100%" height="1000px" />
