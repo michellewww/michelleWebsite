@@ -90,6 +90,19 @@ document.addEventListener("DOMContentLoaded", function() {
 _* <u>click each card to expand_</u>
 
 ## <div id="startup">MY STARTUP!!!</div>
+<div class="experience-card" id="project11">
+  <a href="https://shawnjsk1.wixsite.com/sorenai" class="goosecart-logo" target="_blank">
+      <img src="rounded_sorenai.png" />
+  </a>  
+  <div style="text-align: center;">
+    <div style="font-size: 24px; color: #ff7f50">SOREN AI</div>
+    <div style="font-size: 14px; color: #ffb347;">Your Streamlined AI Research Agent</div>
+    <div style="font-size: 14px;">
+      Connect with us:
+      <a href="https://shawnjsk1.wixsite.com/sorenai" class="connection-link" target="_blank">Website</a>
+    </div>
+  </div>
+</div>
 <div class="experience-card" id="project1">
   <a href="https://www.goose-cart.com/" class="goosecart-logo" target="_blank">
       <img src="rounded_goosecart.png" />
@@ -101,14 +114,35 @@ _* <u>click each card to expand_</u>
     <div style="font-size: 14px; color: #ffb347;">Flock Together for Local Deals!</div>
     <div style="font-size: 14px;">
       Connect with us:
-      <a href="https://www.goose-cart.com/" class="connection-link" target="_blank">Website</a>
-       | 
+      <!-- <a href="https://www.goose-cart.com/" class="connection-link" target="_blank">Website</a> -->
+       <!-- |  -->
       <a href="https://www.linkedin.com/company/goosecart/" class="connection-link" target="_blank"> LinkedIn</a>
     </div>
   </div>
 </div>
 
 ## <div id="intern">Intern</div>
+<div class="experience-card" id="project10">
+  <h3>Ruvos</h3>
+  <a href="https://www.ruvos.com/" class="external-link" target="_blank">
+    <img src="ext_link_icon.png" />
+  </a>
+  <p class="skills">
+    <span>Python</span>
+    <span>Postman</span>
+    <span>Pytest</span>
+    <span>Git</span>
+    <span>Jira</span>
+  </p>
+  <details>
+    <summary><strong>Position:</strong> Software Engineer Intern | <strong>Year:</strong> 01/2025 - Present</summary>
+    <ul>
+      <li>Automated data retrieval and integration processes by developing Python-based web crawlers and utilizing API calls (Postman) to fetch and map health datasets, reducing manual data handling by 40%.</li>
+      <li>Conducted testing using Selenium and Pytest, increasing test coverage by 30% and reducing production bugs by 20%.</li>
+      <li>Utilized Jira for agile project management, bug tracking, and sprint planning, leveraging Confluence for documentation.</li>
+    </ul>
+  </details>
+</div>
 <div class="experience-card" id="project9">
   <h3>Hull Street Energy</h3>
   <a href="https://hullstreetenergy.com/" class="external-link" target="_blank">
