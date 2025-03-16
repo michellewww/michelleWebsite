@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", function() {
 </script>
 
 <!-- <div>
-<a href="https://www.jingman-wang.me/en/about/#skills" class="external-link" target="_blank"> check Michelle's skills
+<a href="https://www.jingman-wang.com/en/about/#skills" class="external-link" target="_blank"> check Michelle's skills
 </a>
 </div> -->
 
